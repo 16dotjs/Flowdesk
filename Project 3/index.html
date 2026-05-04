@@ -80,7 +80,6 @@
         background-clip: text;
       }
 
-      /* Page system */
       .page {
         display: none;
       }
@@ -88,7 +87,6 @@
         display: block;
       }
 
-      /* Reveal */
       .reveal {
         opacity: 0;
         transform: translateY(24px);
@@ -113,14 +111,12 @@
         transition-delay: 0.4s;
       }
 
-      /* Navbar scrolled */
       .navbar.scrolled {
         background: rgba(0, 0, 0, 0.9);
         backdrop-filter: blur(20px);
         border-bottom-color: #1f1f1f;
       }
 
-      /* Keyframes */
       @keyframes blink {
         0%,
         100% {
@@ -171,7 +167,6 @@
         }
       }
 
-      /* Animated icons - Task */
       @keyframes sq1 {
         0%,
         100% {
@@ -249,7 +244,6 @@
         transform-origin: center;
       }
 
-      /* Animated icons - Team */
       @keyframes orbit {
         0% {
           transform: rotate(0deg) translateX(9px) rotate(0deg);
@@ -289,7 +283,6 @@
         animation: headPulse 2s ease-in-out infinite;
       }
 
-      /* Animated icons - Analytics */
       @keyframes waveDraw {
         0% {
           stroke-dashoffset: 80;
@@ -316,7 +309,6 @@
           wavePulse 2s ease-in-out infinite;
       }
 
-      /* Animated icons - Link */
       @keyframes spinCW {
         0% {
           transform: rotate(0deg);
@@ -354,9 +346,6 @@
         animation: linkPulse 1.5s ease-in-out infinite;
       }
 
-      /* VALUE ICONS - Animated SVGs */
-
-      /* Target (Ruthless Focus) */
       @keyframes ringPulse {
         0%,
         100% {
@@ -414,7 +403,6 @@
         transform-origin: 12px 12px;
       }
 
-      /* Lightning (Speed) */
       @keyframes boltFlash {
         0%,
         100% {
@@ -466,7 +454,6 @@
         animation: sparkMove2 2s ease-in-out infinite 0.6s;
       }
 
-      /* Globe (Built for Everyone) */
       @keyframes meridianSpin {
         0% {
           stroke-dashoffset: 0;
@@ -517,7 +504,6 @@
         transform-origin: 12px 12px;
       }
 
-      /* Lock (Honest) */
       @keyframes shackleLift {
         0%,
         60%,
@@ -559,7 +545,6 @@
         animation: lockGlow 2.5s ease-in-out infinite;
       }
 
-      /* Integration chip animations */
       @keyframes chipFloat {
         0%,
         100% {
@@ -691,7 +676,6 @@
         transform: scale(1.12) rotate(-4deg);
       }
 
-      /* Misc floating */
       @keyframes mvFloat1 {
         0%,
         100% {
@@ -720,7 +704,6 @@
         }
       }
 
-      /* Hamburger */
       .hamburger.open span:nth-child(1) {
         transform: translateY(6.5px) rotate(45deg);
       }
@@ -736,7 +719,6 @@
         animation: mobileIn 0.25s ease;
       }
 
-      /* Testimonial track */
       .testi-track {
         display: flex;
         gap: 1.25rem;
@@ -747,7 +729,6 @@
         width: calc(33.333% - 0.85rem);
       }
 
-      /* Feat tab panels */
       .ftab-panel {
         display: none;
       }
@@ -757,7 +738,6 @@
         gap: 1.25rem;
       }
 
-      /* FAQ */
       .faq-a {
         max-height: 0;
         overflow: hidden;
@@ -772,7 +752,6 @@
         transform: rotate(45deg);
       }
 
-      /* Annual toggle */
       .toggle-switch.on {
         background: #7c3aed;
       }
@@ -780,18 +759,15 @@
         transform: translateX(24px);
       }
 
-      /* Billing toggle label */
       .toggle-label.active {
         color: #fff;
         font-weight: 500;
       }
 
-      /* Counter */
       [data-target] {
         font-family: "Syne", sans-serif;
       }
 
-      /* Toast */
       .toast {
         position: fixed;
         bottom: 2rem;
@@ -816,7 +792,6 @@
         border-color: rgba(248, 113, 113, 0.4);
       }
 
-      /* Nav active dot */
       .nav-links a.active::after {
         content: "";
         position: absolute;
@@ -829,7 +804,6 @@
         background: #7c3aed;
       }
 
-      /* Page hero gradient */
       .page-hero::before {
         content: "";
         position: absolute;
@@ -846,7 +820,6 @@
         pointer-events: none;
       }
 
-      /* CTA banner gradient */
       .cta-banner::before {
         content: "";
         position: absolute;
@@ -863,7 +836,6 @@
         pointer-events: none;
       }
 
-      /* Value card gradient top bar */
       .value-card::before {
         content: "";
         position: absolute;
@@ -879,7 +851,6 @@
         opacity: 1;
       }
 
-      /* Team avatar ring */
       .team-avatar::after {
         content: "";
         position: absolute;
@@ -899,7 +870,6 @@
         opacity: 1;
       }
 
-      /* Popular plan badge */
       .plan-card.popular::before {
         content: "Most Popular";
         position: absolute;
@@ -915,7 +885,6 @@
         white-space: nowrap;
       }
 
-      /* Mission section */
       @media (min-width: 900px) {
         .mission-inner {
           display: grid;
@@ -925,7 +894,6 @@
         }
       }
 
-      /* Timeline line */
       .timeline::before {
         content: "";
         position: absolute;
@@ -942,7 +910,6 @@
         );
       }
 
-      /* hiw connecting line */
       .hiw-line {
         position: absolute;
         top: 32px;
@@ -957,7 +924,6 @@
         pointer-events: none;
       }
 
-      /* Footer */
       @media (min-width: 768px) {
         .footer-grid {
           display: grid;
@@ -980,7 +946,6 @@
         }
       }
 
-      /* Contact grid */
       @media (min-width: 900px) {
         .contact-grid {
           display: grid;
@@ -992,7 +957,6 @@
     </style>
   </head>
   <body class="bg-bg font-body text-t1">
-    <!-- NAVBAR -->
     <nav
       class="navbar fixed top-0 left-0 right-0 z-[1000] h-[68px] px-[clamp(1.25rem,4vw,3rem)] flex items-center justify-between border-b border-transparent transition-all duration-300"
       id="navbar"
@@ -1132,7 +1096,6 @@
       </div>
     </nav>
 
-    <!-- MOBILE MENU -->
     <div
       class="mobile-menu hidden fixed top-[68px] left-0 right-0 bg-black/97 backdrop-blur-2xl border-b border-border1 px-6 pb-7 pt-4 flex-col gap-1 z-[999]"
       id="mobileMenu"
@@ -1192,7 +1155,6 @@
       >
     </div>
 
-    <!-- HOME PAGE -->
     <div class="page active" id="page-home">
       <!-- Hero -->
       <section
@@ -1297,7 +1259,6 @@
           Set up in 2 minutes
         </p>
 
-        <!-- Dashboard Mock -->
         <div
           class="relative z-10 mt-16 reveal"
           style="
@@ -1523,7 +1484,6 @@
         </div>
       </section>
 
-      <!-- Stats bar -->
       <section class="border-t border-b border-border1 bg-bg2 py-12">
         <div class="max-w-[1200px] mx-auto px-[clamp(1.25rem,4vw,3rem)]">
           <div
@@ -1577,7 +1537,6 @@
         </div>
       </section>
 
-      <!-- Features overview -->
       <section class="py-24">
         <div class="max-w-[1200px] mx-auto px-[clamp(1.25rem,4vw,3rem)]">
           <div class="text-center mb-14">
@@ -1908,7 +1867,6 @@
         </div>
       </section>
 
-      <!-- How it works -->
       <section class="py-24 bg-bg2">
         <div class="max-w-[1200px] mx-auto px-[clamp(1.25rem,4vw,3rem)]">
           <div class="text-center mb-14">
@@ -1979,7 +1937,6 @@
         </div>
       </section>
 
-      <!-- Testimonials -->
       <section class="py-24">
         <div class="max-w-[1200px] mx-auto px-[clamp(1.25rem,4vw,3rem)]">
           <div class="text-center mb-14">
@@ -2133,7 +2090,6 @@
         </div>
       </section>
 
-      <!-- CTA Banner -->
       <section
         class="cta-banner bg-bg2 border-t border-b border-border1 py-24 text-center relative overflow-hidden"
       >
@@ -2180,7 +2136,6 @@
       </section>
     </div>
 
-    <!-- FEATURES PAGE -->
     <div class="page" id="page-features">
       <div
         class="page-hero text-center relative overflow-hidden"
@@ -2580,7 +2535,6 @@
         </div>
       </section>
 
-      <!-- Integrations -->
       <section class="py-24 bg-bg2 border-t border-border1">
         <div class="max-w-[1200px] mx-auto px-[clamp(1.25rem,4vw,3rem)]">
           <div class="text-center mb-14">
@@ -2610,7 +2564,6 @@
               gap: 1rem;
             "
           >
-            <!-- Slack -->
             <div
               class="chip-slack bg-bg2 border border-border1 rounded-xl p-5 text-center cursor-pointer transition-all hover:-translate-y-1"
               style="
@@ -2667,7 +2620,7 @@
               </div>
               <div class="text-[0.78rem] text-t2 font-medium">Slack</div>
             </div>
-            <!-- GitHub -->
+
             <div
               class="chip-github bg-bg2 border border-border1 rounded-xl p-5 text-center cursor-pointer"
               onmouseover="
@@ -2692,7 +2645,7 @@
               </div>
               <div class="text-[0.78rem] text-t2 font-medium">GitHub</div>
             </div>
-            <!-- Figma -->
+
             <div
               class="chip-figma bg-bg2 border border-border1 rounded-xl p-5 text-center cursor-pointer"
               onmouseover="
@@ -2725,7 +2678,7 @@
               </div>
               <div class="text-[0.78rem] text-t2 font-medium">Figma</div>
             </div>
-            <!-- Notion -->
+
             <div
               class="chip-notion bg-bg2 border border-border1 rounded-xl p-5 text-center cursor-pointer"
               onmouseover="this.style.borderColor = 'rgba(124,58,237,.4)'"
@@ -2768,7 +2721,7 @@
               </div>
               <div class="text-[0.78rem] text-t2 font-medium">Notion</div>
             </div>
-            <!-- Google Drive -->
+
             <div
               class="chip-gdrive bg-bg2 border border-border1 rounded-xl p-5 text-center cursor-pointer"
               onmouseover="this.style.borderColor = 'rgba(124,58,237,.4)'"
@@ -2789,7 +2742,7 @@
               </div>
               <div class="text-[0.78rem] text-t2 font-medium">Google Drive</div>
             </div>
-            <!-- Gmail -->
+
             <div
               class="chip-gmail bg-bg2 border border-border1 rounded-xl p-5 text-center cursor-pointer"
               onmouseover="this.style.borderColor = 'rgba(124,58,237,.4)'"
@@ -2823,7 +2776,7 @@
               </div>
               <div class="text-[0.78rem] text-t2 font-medium">Gmail</div>
             </div>
-            <!-- Zapier -->
+
             <div
               class="chip-zapier bg-bg2 border border-border1 rounded-xl p-5 text-center cursor-pointer"
               onmouseover="this.style.borderColor = 'rgba(124,58,237,.4)'"
@@ -2843,7 +2796,7 @@
               </div>
               <div class="text-[0.78rem] text-t2 font-medium">Zapier</div>
             </div>
-            <!-- GitLab -->
+
             <div
               class="chip-gitlab bg-bg2 border border-border1 rounded-xl p-5 text-center cursor-pointer"
               onmouseover="this.style.borderColor = 'rgba(124,58,237,.4)'"
@@ -2867,7 +2820,7 @@
               </div>
               <div class="text-[0.78rem] text-t2 font-medium">GitLab</div>
             </div>
-            <!-- Jira -->
+
             <div
               class="chip-jira bg-bg2 border border-border1 rounded-xl p-5 text-center cursor-pointer"
               onmouseover="this.style.borderColor = 'rgba(124,58,237,.4)'"
@@ -2890,7 +2843,7 @@
               </div>
               <div class="text-[0.78rem] text-t2 font-medium">Jira</div>
             </div>
-            <!-- Linear -->
+
             <div
               class="chip-linear bg-bg2 border border-border1 rounded-xl p-5 text-center cursor-pointer"
               onmouseover="this.style.borderColor = 'rgba(124,58,237,.4)'"
@@ -2908,7 +2861,7 @@
               </div>
               <div class="text-[0.78rem] text-t2 font-medium">Linear</div>
             </div>
-            <!-- MS Teams -->
+
             <div
               class="chip-teams bg-bg2 border border-border1 rounded-xl p-5 text-center cursor-pointer"
               onmouseover="this.style.borderColor = 'rgba(124,58,237,.4)'"
@@ -2936,7 +2889,7 @@
               </div>
               <div class="text-[0.78rem] text-t2 font-medium">MS Teams</div>
             </div>
-            <!-- More -->
+
             <div
               class="chip-more bg-bg2 rounded-xl p-5 text-center cursor-pointer"
               style="border: 1px dashed rgba(124, 58, 237, 0.3)"
@@ -2979,7 +2932,6 @@
         </div>
       </section>
 
-      <!-- CTA -->
       <section
         class="cta-banner bg-bg2 border-t border-b border-border1 py-24 text-center relative overflow-hidden"
       >
@@ -3016,7 +2968,6 @@
       </section>
     </div>
 
-    <!-- PRICING PAGE -->
     <div class="page" id="page-pricing">
       <div
         class="page-hero text-center relative overflow-hidden"
@@ -3306,7 +3257,6 @@
         </div>
       </section>
 
-      <!-- FAQ -->
       <section class="py-24 bg-bg2">
         <div class="max-w-[1200px] mx-auto px-[clamp(1.25rem,4vw,3rem)]">
           <div class="text-center mb-14">
@@ -3454,7 +3404,6 @@
       </section>
     </div>
 
-    <!-- ABOUT PAGE -->
     <div class="page" id="page-about">
       <div
         class="page-hero text-center relative overflow-hidden"
@@ -3481,7 +3430,6 @@
         </p>
       </div>
 
-      <!-- Mission -->
       <section class="py-24 about-mission">
         <div class="max-w-[1200px] mx-auto px-[clamp(1.25rem,4vw,3rem)]">
           <div class="mission-inner">
@@ -3613,7 +3561,6 @@
         </div>
       </section>
 
-      <!-- VALUES with animated SVG icons -->
       <section class="py-24">
         <div class="max-w-[1200px] mx-auto px-[clamp(1.25rem,4vw,3rem)]">
           <div class="text-center mb-14">
@@ -3641,7 +3588,6 @@
             class="grid gap-5"
             style="grid-template-columns: repeat(auto-fit, minmax(240px, 1fr))"
           >
-            <!-- Value 1: Ruthless Focus — Target SVG -->
             <div
               class="value-card relative bg-bg2 border border-border1 rounded-2xl p-8 overflow-hidden transition-all cursor-default reveal"
               onmouseover="
@@ -3666,7 +3612,6 @@
                   fill="none"
                   style="overflow: visible"
                 >
-                  <!-- Outer ring -->
                   <circle
                     class="ring-outer"
                     cx="12"
@@ -3677,7 +3622,7 @@
                     fill="none"
                     stroke-dasharray="4 2"
                   />
-                  <!-- Mid ring -->
+
                   <circle
                     class="ring-mid"
                     cx="12"
@@ -3687,7 +3632,7 @@
                     stroke-width="1.5"
                     fill="none"
                   />
-                  <!-- Inner ring (static) -->
+
                   <circle
                     cx="12"
                     cy="12"
@@ -3696,7 +3641,7 @@
                     stroke-width="1.5"
                     fill="none"
                   />
-                  <!-- Center dot -->
+
                   <circle
                     class="dot-center"
                     cx="12"
@@ -3704,7 +3649,7 @@
                     r="2"
                     fill="#a78bfa"
                   />
-                  <!-- Crosshair lines -->
+
                   <g class="crosshair">
                     <line
                       x1="12"
@@ -3756,7 +3701,6 @@
               </p>
             </div>
 
-            <!-- Value 2: Speed is a Feature — Lightning SVG -->
             <div
               class="value-card relative bg-bg2 border border-border1 rounded-2xl p-8 overflow-hidden transition-all cursor-default reveal d1"
               onmouseover="
@@ -3781,7 +3725,6 @@
                   fill="none"
                   style="overflow: visible"
                 >
-                  <!-- Main bolt -->
                   <path
                     class="bolt"
                     d="M13 2L4.5 13.5H11L10 22L19.5 10.5H13L13 2Z"
@@ -3790,7 +3733,7 @@
                     stroke-width=".5"
                     stroke-linejoin="round"
                   />
-                  <!-- Sparks -->
+
                   <circle
                     class="spark1"
                     cx="20"
@@ -3807,7 +3750,7 @@
                     fill="#fbbf24"
                     opacity="0"
                   />
-                  <!-- Glow overlay -->
+
                   <path
                     d="M13 2L4.5 13.5H11L10 22L19.5 10.5H13L13 2Z"
                     fill="none"
@@ -3824,7 +3767,6 @@
               </p>
             </div>
 
-            <!-- Value 3: Built for Everyone — Globe SVG -->
             <div
               class="value-card relative bg-bg2 border border-border1 rounded-2xl p-8 overflow-hidden transition-all cursor-default reveal d2"
               onmouseover="
@@ -3849,7 +3791,6 @@
                   fill="none"
                   style="overflow: visible"
                 >
-                  <!-- Globe outline -->
                   <circle
                     class="globe-circle"
                     cx="12"
@@ -3859,7 +3800,7 @@
                     stroke-width="1.5"
                     fill="none"
                   />
-                  <!-- Vertical meridian (animated) -->
+
                   <ellipse
                     class="meridian"
                     cx="12"
@@ -3870,7 +3811,7 @@
                     stroke-width="1.2"
                     fill="none"
                   />
-                  <!-- Horizontal latitude lines -->
+
                   <ellipse
                     class="latitude"
                     cx="12"
@@ -3892,7 +3833,7 @@
                     fill="none"
                     opacity=".4"
                   />
-                  <!-- Orbiting dot -->
+
                   <circle
                     class="orbit-point"
                     cx="22"
@@ -3909,7 +3850,6 @@
               </p>
             </div>
 
-            <!-- Value 4: Honest by Default — Lock SVG -->
             <div
               class="value-card relative bg-bg2 border border-border1 rounded-2xl p-8 overflow-hidden transition-all cursor-default reveal d3"
               onmouseover="
@@ -3934,7 +3874,6 @@
                   fill="none"
                   style="overflow: visible"
                 >
-                  <!-- Lock shackle (animated) -->
                   <path
                     class="shackle"
                     d="M8 11V7a4 4 0 0 1 8 0v4"
@@ -3944,7 +3883,7 @@
                     stroke-linejoin="round"
                     fill="none"
                   />
-                  <!-- Lock body -->
+
                   <rect
                     class="body"
                     x="5"
@@ -3956,7 +3895,7 @@
                     stroke-width="1.8"
                     fill="none"
                   />
-                  <!-- Keyhole -->
+
                   <g class="keyhole">
                     <circle
                       cx="12"
@@ -3988,7 +3927,6 @@
         </div>
       </section>
 
-      <!-- Team -->
       <section class="py-24 border-t border-border1 bg-bg2">
         <div class="max-w-[1200px] mx-auto px-[clamp(1.25rem,4vw,3rem)]">
           <div class="text-center mb-14">
@@ -4168,7 +4106,6 @@
         </div>
       </section>
 
-      <!-- Timeline -->
       <section class="py-24">
         <div class="max-w-[1200px] mx-auto px-[clamp(1.25rem,4vw,3rem)]">
           <div class="text-center mb-14">
@@ -4353,7 +4290,6 @@
         </div>
       </section>
 
-      <!-- CTA -->
       <section
         class="cta-banner bg-bg2 border-t border-b border-border1 py-24 text-center relative overflow-hidden"
       >
@@ -4389,7 +4325,6 @@
       </section>
     </div>
 
-    <!-- CONTACT PAGE -->
     <div class="page" id="page-contact">
       <div
         class="page-hero text-center relative overflow-hidden"
@@ -4625,7 +4560,6 @@
       </section>
     </div>
 
-    <!-- FOOTER -->
     <footer
       class="bg-bg2 border-t border-border1 pt-16 pb-8 px-[clamp(1.25rem,5vw,5rem)]"
     >
